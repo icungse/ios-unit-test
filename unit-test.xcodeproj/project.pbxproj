@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E723F657230D3A35009502DB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E723F656230D3A35009502DB /* User.swift */; };
+		E723F65B230D3F35009502DB /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E723F65A230D3F35009502DB /* UserTests.swift */; };
 		E7F1E81A230D391E006FE98C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F1E819230D391E006FE98C /* AppDelegate.swift */; };
 		E7F1E81C230D391E006FE98C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F1E81B230D391E006FE98C /* ViewController.swift */; };
 		E7F1E81F230D391E006FE98C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F1E81D230D391E006FE98C /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		E723F656230D3A35009502DB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E723F65A230D3F35009502DB /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
 		E7F1E816230D391E006FE98C /* unit-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "unit-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F1E819230D391E006FE98C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7F1E81B230D391E006FE98C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				E7F1E82E230D391F006FE98C /* unit_testTests.swift */,
 				E7F1E830230D391F006FE98C /* Info.plist */,
+				E723F65A230D3F35009502DB /* UserTests.swift */,
 			);
 			path = "unit-testTests";
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E723F65B230D3F35009502DB /* UserTests.swift in Sources */,
 				E7F1E82F230D391F006FE98C /* unit_testTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
